@@ -1,0 +1,36 @@
+.date-picker-container {
+  width: fit-content;
+  /* margin: 15rem; */
+  position: relative;
+  margin-left: 5rem;
+}
+
+.from-pos {
+  top: 150px;
+  position: relative;
+  background: #000;
+  margin-left: 3rem;
+  width: fit-content;
+}
+
+.from {
+  margin: 1.5rem;
+}
+
+.from-to-wrapper {
+}
+
+.MuiPickersBasePicker-container {
+  min-height: 350px;
+}
+
+.tool-bar {
+  position: absolute;
+  z-index: 5000;
+  bottom: 10px;
+  padding: 0 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+}
