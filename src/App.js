@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
+import _Router from "./router/index";
 import "./App.css";
-import MaterialPG from "./pages/material-pg";
 
 function App() {
   return (
     <div className="App">
-      <MaterialPG />
+      <_Router />
     </div>
   );
 }
